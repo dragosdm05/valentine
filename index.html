@@ -14,12 +14,12 @@ body{
   justify-content:center;
   font-family: Arial, sans-serif;
   text-align:center;
- background-image: url('bg.jpg');
+
+  background-image: url('bg.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
-
 
 .card{
   background: rgba(0,0,0,0.6);
@@ -27,12 +27,17 @@ body{
   color:white;
   padding:30px;
   border-radius:20px;
-  max-width:600px;
+  max-width:650px;
 }
-
 
 h1{
   font-size:32px;
+  margin-bottom:20px;
+}
+
+p{
+  font-size:18px;
+  line-height:1.5;
 }
 
 button{
@@ -60,18 +65,11 @@ button{
 <body>
 
 <div class="card" id="card">
-  <h1>Nu știu dacă există cuvinte suficient de bune pentru ce simt pentru tine.
-Dar știu sigur că, de când ești în viața mea, nimic nu mai e la fel, în cel mai frumos mod posibil.
+  <h1>Iubirea mea, vrei să fii Valentine-ul meu? ❤️</h1>
 
-Ai reușit, fără să forțezi nimic, doar fiind tu, să devii persoana la care mă gândesc prima, cu care vreau să împart tot și lângă care simt că pot fi exact așa cum sunt.
-
-Cu tine am învățat că liniștea poate fi mai prețioasă decât orice, că un zâmbet poate schimba o zi întreagă și că acasă nu e un loc, ci o persoană.
-
-De 1 an și 3 luni, viața mea e mai caldă, mai bună și mai plină, pentru că ești tu în ea. Și nu trece o zi în care să nu fiu recunoscător pentru asta.
-
-Îmi place cum suntem împreună. Îmi place ce simt când sunt lângă tine. Îmi place „noi” mai mult decât pot să explic.
-
-Și azi vreau doar să-ți spun, din tot sufletul meu: Do you wanna be my Valentine? ❤️</h1>
+  <p>
+    În fiecare zi îmi dau seama cât de mult sens pui în lucrurile mici și cât de ușor devine totul când ești lângă mine.
+  </p>
 
   <button id="yes" onclick="yesClicked()">DA</button>
   <button id="no" onmouseover="moveNo()">NU</button>
